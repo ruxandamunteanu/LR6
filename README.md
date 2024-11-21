@@ -26,51 +26,39 @@ $ git clone
 
 ### Добавление файла через интерфейс GitHub
 C помощью Add file << Create new file  был создан файл new_file и подтянуты изменения в локальный репозиторий.
-
 ![Рисунок 3](https://github.com/ruxandamunteanu/LR6/blob/report/images/3.png?raw=true)
 
 ### Просмотр истории и последних изменений веток
 История операций для каждой из веток:
-
 ![Рисунок 4](https://github.com/ruxandamunteanu/LR6/blob/report/images/4.png?raw=true)
 
 Последние изменения:
 ![Рисунок 5](https://github.com/ruxandamunteanu/LR6/blob/report/images/5.png?raw=true)
 
 ### Cлияние в ветку master, разрешение конфликта и удаление побочной ветки 
-
 В ветке master было выполнено слияние c веткой branch1, в результате чего получено сообщение о конфликте:
-
 ![Рисунок 6](https://github.com/ruxandamunteanu/LR6/blob/report/images/6.png?raw=true)
 
 Разрешение конфликта:
-
 ![Рисунок 7](https://github.com/ruxandamunteanu/LR6/blob/report/images/7.png?raw=true)
 
 Завершение слияния:
-
 ![Рисунок 8](https://github.com/ruxandamunteanu/LR6/blob/report/images/8.png?raw=true)
 
 Удаление побочной ветки:
-
 ![Рисунок 9](https://github.com/ruxandamunteanu/LR6/blob/report/images/9.png?raw=true)
 
 ### Внесение изменений с комментариями и откат коммита
-
 Изменение текстф в файле new_fail  и создание коммита:
-
 ![Рисунок 10](https://github.com/ruxandamunteanu/LR6/blob/report/images/10.png?raw=true)
 
 Создание нового файла info.txt с текстом, просмотр его содержимого и создание коммита:
-
 ![Рисунок 11](https://github.com/ruxandamunteanu/LR6/blob/report/images/11.png?raw=true)
 
 Изменение содержимого info.txt и его коммит:
-
 ![Рисунок 12](https://github.com/ruxandamunteanu/LR6/blob/report/images/12.png?raw=true)
 
 Произведен откат коммита:
-
 ![Рисунок 13](https://github.com/ruxandamunteanu/LR6/blob/report/images/13.png?raw=true)
 
 ### Создание ветки для отчёта
@@ -81,7 +69,6 @@ C помощью Add file << Create new file  был создан файл new_f
 ![Рисунок 14](https://github.com/ruxandamunteanu/LR6/blob/report/images/14.png?raw=true)
 
 ### Лог команд 
-
 ```bash
 $ git config --global user.name " 4319 Мунтяну Р."
 $ git config --global user.email "ruxandam2005@gmail.com"
