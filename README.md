@@ -73,30 +73,51 @@ C помощью Add file << Create new file  был создан файл new_f
 
 ### Лог команд 
 ```bash
+ # установка глобального имени пользователя 
 $ git config --global user.name " 4319 Мунтяну Р."
+ # установка глобального email
 $ git config --global user.email "ruxandam2005@gmail.com"
-$ git clone
+# создание копии удаленного репозитория
+$ git clone 
+# получение изменений из удаленного репозитория и их слияние с текущей веткой
 $ git pull
+# получение истории коммитов текущей ветки
 $ git log 
+ # отображение всей истории коммитов с графическим представлением веток и метками
 $ git log --all --graph --oneline --decorate
+# слияние ветки branch1 с текущей веткой 
 $ git merge branch1
+# добавление файла mergefile.txt в индекс
 $ git add mergefile.txt
+# просмотр текущего состояния репозитория
 $ git status 
+# создание коммита о разрешении конфликта
 $ git commit -m "Разрешен конфликт при слиянии в ветку master"
+# удаление побочной ветки branch1
 $ git branch -d branch1
+# добавление файла new_file в индекс
 $ git add new_file
+# создание коммита о изменении new_file
 $ git commit -m "Изменение текста в new_file"
+# создание файла info.txt с содержанием
 $ echo "Это новый файл с информацией" > info.txt
+# вывод содержимого файла info.txt в терминал.
 $ cat info.txt
+# добавление файла info.txt в индекс
 $ git add info.txt
+# создание коммита о создании info.txt
 $ git commit -m "Создан файл info с информацией"
+# добавление файла info.txt в индекс
 $ git add info.txt
+# создание коммита о изменении info.txt
 $ git commit -m "Содержимое файла info изменено"
+# откат последнего коммита 
 $ git reset HEAD~1
+# создание и переключение на новую ветку report
 $ git checkout -b report
+# пуш ветки report на удаленный репозиторий и ее соединение с удаленной веткой 
 $ git push --set-upstream origin report
 ```
-
 ### История операций
 ```bash
 $ git log --pretty=format:"%h | %ad | %an | %s" --date=short
