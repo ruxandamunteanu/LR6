@@ -52,7 +52,7 @@ C помощью Add file << Create new file  был создан файл new_f
 ![Рисунок 9](https://github.com/ruxandamunteanu/LR6/blob/report/images/9.png?raw=true)
 
 ### Внесение изменений с комментариями и откат коммита
-Изменение текстф в файле new_fail  и создание коммита:
+Изменение текста в файле new_file  и создание коммита:
 ![Рисунок 10](https://github.com/ruxandamunteanu/LR6/blob/report/images/10.png?raw=true)
 
 Создание нового файла info.txt с текстом, просмотр его содержимого и создание коммита:
