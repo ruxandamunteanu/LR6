@@ -26,6 +26,7 @@ $ git clone
 
 ### Добавление файла через интерфейс GitHub
 C помощью Add file << Create new file  был создан файл new_file и подтянуты изменения в локальный репозиторий.
+
 ![Рисунок 3](https://github.com/ruxandamunteanu/LR6/blob/report/images/3.png?raw=true)
 
 ### Просмотр истории и последних изменений веток
